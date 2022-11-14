@@ -1,0 +1,15 @@
+body {
+  font-family: "Nunito", sans-serif;
+}
+.App .wrapper {
+  margin: 20px auto 0;
+  max-width: 700px;
+  border: 1px solid rgb(223, 221, 221);
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.App .source-link {
+  max-width: 700px;
+  margin: 10px auto;
+}
