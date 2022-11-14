@@ -23,10 +23,10 @@ export default function App() {
         </div>
       </div>
       <p className="source-link">
-        <a href="https://github.com/Katherine-22/weather-app">
-          Open-source code
-        </a>
-        by Kateryna Kuznietsova
+        <a href="https://github.com/Katherine-22/weather-react">
+          Open-source code 
+        </a> 
+         by Kateryna Kuznietsova
       </p>
     </div>
   );

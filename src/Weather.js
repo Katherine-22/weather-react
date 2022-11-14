@@ -13,7 +13,7 @@ export default function Weather() {
       </div>
 
       <div className="col-xs-12 col-sm-3">
-        <img src="../images/sun-cloud.png" alt="" id="main-weather-image" />
+        <img src="../images/sun-cloud.svg" alt="" id="main-weather-image" />
       </div>
       <div className="col-xs-12 col-sm-5">
         <h3>
