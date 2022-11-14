@@ -1,0 +1,21 @@
+.Weather h1 {
+  font-size: 32px;
+  margin-top: 10px;
+}
+
+.Weather h3 {
+  margin-top: 20px;
+}
+
+.Weather #main-description::first-letter {
+  text-transform: capitalize;
+}
+
+.Weather img {
+  width: 100px;
+}
+
+.Weather .main-date {
+  font-size: 20px;
+  font-weight: bold;
+}
