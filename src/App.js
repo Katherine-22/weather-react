@@ -1,19 +1,33 @@
+import "./styles.css";
+import Form from "./Form.js";
+import Forecast from "./Forecast";
+import MainWeather from "./MainWeather";
 
-import Weather from "./Weather";
-import './App.css';
-
-function App() {
+export default function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        
+      <div className="wrapper">
+        <Form />
+        <MainWeather />
 
-        <h2>
-          <Weather city="Tokyo"/>
-        </h2>
-      </header>
+        <p className="forecastHeading" id="forecast">
+          Daily forecast
+        </p>
+        <div className="row forecast">
+          <Forecast maxTemp={18} lowerTemp={13} day="Sun" />
+          <Forecast maxTemp={19} lowerTemp={12} day="Mon" />
+          <Forecast maxTemp={20} lowerTemp={11} day="Tue" />
+          <Forecast maxTemp={21} lowerTemp={10} day="Wed" />
+          <Forecast maxTemp={22} lowerTemp={9} day="Thu" />
+          <Forecast maxTemp={23} lowerTemp={8} day="Fri" />
+        </div>
+      </div>
+      <p className="source-link">
+        <a href="https://github.com/Katherine-22/weather-app">
+          Open-source code
+        </a>
+        by Kateryna Kuznietsova
+      </p>
     </div>
   );
 }
-
-export default App;
