@@ -1,4 +1,4 @@
-import "./styles.css";
+import "./app.css";
 import Form from "./Form.js";
 import Forecast from "./Forecast";
 import MainWeather from "./MainWeather";
@@ -6,7 +6,7 @@ import MainWeather from "./MainWeather";
 export default function App() {
   return (
     <div className="App">
-      <div className="wrapper">
+      <div className="container">
         <Form />
         <MainWeather />
 
@@ -23,9 +23,9 @@ export default function App() {
         </div>
       </div>
       <p className="source-link">
-        <a href="https://github.com/Katherine-22/weather-react">
+        <a href="https://github.com/Katherine-22/weather-react" target="_blank">
           Open-source code 
-        </a> 
+        </a>{" "}
          by Kateryna Kuznietsova
       </p>
     </div>
