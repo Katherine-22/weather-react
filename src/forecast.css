@@ -27,14 +27,14 @@
 }
 
 .weekday {
-  background: rgb(255, 235, 205, 0.9);
+  background: rgb(255, 235, 205);
   text-align: center;
   border-radius: 10px;
 }
 
 .weekday p {
   font-size: 16px;
-  color: #2a84cd;
+  color: #07a09d;
   padding-bottom: 10px;
   font-weight: bold;
 }

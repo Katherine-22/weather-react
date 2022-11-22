@@ -7,15 +7,16 @@ export default function Form() {
       
         <form id="search-form">
           <div className="row">
-            <div className="col-9">
+            <div className="col-7 col-md-9">
               <input
                 type="search"
                 placeholder="Type a city..."
                 className="search-bar"
                 id="search-text-input"
+                autoFocus="on"
               />
             </div>
-            <div className="col-3">
+            <div className="col-5 col-md-3">
               <input type="submit" value="Search" className="btn btn-search" />
             </div>
           </div>

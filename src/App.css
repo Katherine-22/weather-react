@@ -10,9 +10,12 @@ body {
   background-image: url("../public/images/stones.jpg");
   background-size: cover;
   background-position: center center;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .App .source-link {
   max-width: 700px;
   margin: 10px auto;
+  font-size: 14px;
 }
+
