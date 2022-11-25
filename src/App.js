@@ -1,14 +1,14 @@
 import "./app.css";
 import Form from "./Form.js";
 import Forecast from "./Forecast";
-import MainWeather from "./MainWeather";
+import Weather from "./Weather";
 
 export default function App() {
   return (
     <div className="App">
       <div className="container">
         <Form />
-        <MainWeather />
+        <Weather defaultCity="Tokyo"/>
 
         <p className="forecastHeading" id="forecast">
           Daily forecast

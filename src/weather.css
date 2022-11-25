@@ -1,3 +1,11 @@
+.main-row {
+  margin-top: 15px;
+  background: rgb(255, 235, 205);
+  border-radius: 10px;
+  width: 85%;
+  padding-top: 10px;
+}
+
 .Weather h1 {
   font-size: 32px;
   margin-top: 10px;
@@ -38,4 +46,11 @@
 .Weather #main-temp {
   font-size: 32px;
   color: #d9089a;
+}
+
+.indicators {
+  margin-top: 15px;
+  text-align: center;
+  color: #07a09d;
+  font-weight: bold;
 }
