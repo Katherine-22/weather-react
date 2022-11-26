@@ -18,7 +18,7 @@
 }
 
 .Weather img {
-  width: 100px;
+  width: 120px;
 }
 
 .Weather .main-date {
@@ -27,7 +27,7 @@
 }
 
 .Weather .main-description {
-  font-size: 24px;
+  font-size: 28px;
   color: #625b60;
 }
 
@@ -36,11 +36,16 @@
 }
 
 .Weather .unit {
-  font-size: 20px;
+  font-size: 18px;
   position: relative;
-  top: -8px;
+  top: -12px;
   margin-left: 5px;
   line-height: 1;
+ 
+}
+
+.Weather .unit a {
+   text-decoration: none;
 }
 
 .Weather .main-temp {
