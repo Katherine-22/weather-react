@@ -12,7 +12,7 @@
   color: #07a09d;
 }
 
-.Weather h3 {
+.Weather .main-temperature {
   margin-top: 20px;
   font-size: 20px;
 }
@@ -55,6 +55,6 @@
   font-weight: bold;
 }
 
-.Weather .indocators .numbers {
+.Weather .indicators .numbers {
   color: #625b60;
 } 
