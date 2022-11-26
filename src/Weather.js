@@ -20,7 +20,8 @@ export default function Weather(props) {
     wind: response.data.wind.speed,
     description: response.data.condition.description,
     humidity: response.data.temperature.humidity,
-    pressure: response.data.temperature.pressure
+    pressure: response.data.temperature.pressure,
+    icon: response.data.condition.icon_url
   })
 
   setReady(true);

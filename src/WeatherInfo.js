@@ -13,7 +13,7 @@ export default function WeatherInfo(props) {
       </div>
 
       <div className="col-xs-12 col-sm-3">
-        <img src="../images/sun-cloud.svg" alt={props.data.description} id="main-weather-image" />
+        <img src={props.data.icon} alt={props.data.description} id="main-weather-image" />
       </div>
       <div className="col-xs-12 col-sm-5">
         <h3>
