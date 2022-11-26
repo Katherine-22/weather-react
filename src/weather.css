@@ -26,16 +26,16 @@
   font-weight: bold;
 }
 
-.Weather #main-description {
+.Weather .main-description {
   font-size: 24px;
   color: #625b60;
 }
 
-.Weather #main-description::first-letter {
+.Weather .main-description::first-letter {
   text-transform: capitalize;
 }
 
-.Weather #currentUnit {
+.Weather .unit {
   font-size: 20px;
   position: relative;
   top: -8px;
@@ -43,14 +43,18 @@
   line-height: 1;
 }
 
-.Weather #main-temp {
+.Weather .main-temp {
   font-size: 32px;
   color: #d9089a;
 }
 
-.indicators {
+.Weather .indicators {
   margin-top: 15px;
   text-align: center;
   color: #07a09d;
   font-weight: bold;
 }
+
+.Weather .indocators .numbers {
+  color: #625b60;
+} 

@@ -7,19 +7,19 @@ export default function WeatherInfo(props) {
     
       <div className="col-12">
         <h1 id="main-city">{props.data.city}</h1>
-        <p className="main-date" id="main-date">
+        <p className="main-date" >
           <FormattedDate date={props.data.date} />
         </p>
       </div>
 
       <div className="col-xs-12 col-sm-3">
-        <img src={props.data.icon} alt={props.data.description} id="main-weather-image" />
+        <img src={props.data.icon} alt={props.data.description}  />
       </div>
       <div className="col-xs-12 col-sm-5">
         <h3>
-          <span id="main-temp">{Math.round(props.data.temperature)}</span> <span id="currentUnit">°C</span>
+          <span className="main-temp">{Math.round(props.data.temperature)}</span> <span className="unit">°C</span>
           <br />
-          <p className="text-capitalize" id="main-description">{props.data.description}</p>
+          <p className="text-capitalize main-description">{props.data.description}</p>
         </h3>
       </div>
 
@@ -28,19 +28,19 @@ export default function WeatherInfo(props) {
         <div className="col-12 col-sm-4">
           <p>
             Humidity <br />
-            <span id="humidity">{props.data.humidity}</span>%
+            <span className="numbers">{props.data.humidity}</span>%
           </p>
         </div>
         <div className="col-12 col-sm-4">
           <p>
             Wind <br />
-            <span id="wind-speed">{Math.round(props.data.wind)}</span>km/h
+            <span className="numbers">{Math.round(props.data.wind)}</span>km/h
           </p>
         </div>
         <div className="col-12 col-sm-4">
           <p>
             Pressure <br />
-            <span id="pressure">{props.data.pressure}</span>mb
+            <span className="numbers">{props.data.pressure}</span>mb
           </p>
         </div>
 
