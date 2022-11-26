@@ -1,5 +1,5 @@
 import "./app.css";
-import Form from "./Form.js";
+
 import Forecast from "./Forecast";
 import Weather from "./Weather";
 
@@ -7,7 +7,7 @@ export default function App() {
   return (
     <div className="App">
       <div className="container">
-        <Form />
+      
         <Weather defaultCity="Tokyo"/>
 
         <p className="forecastHeading" id="forecast">
