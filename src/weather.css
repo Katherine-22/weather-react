@@ -24,6 +24,7 @@
 .Weather .main-date {
   font-size: 20px;
   font-weight: bold;
+  color: #625b60;
 }
 
 .Weather .main-description {
