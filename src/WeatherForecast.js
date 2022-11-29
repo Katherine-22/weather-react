@@ -8,7 +8,7 @@ export default function WeatherForecast(props) {
         <div className="col-4 col-md-2 px-1">
             <div className="col weekday">
                 <div className="WeatherForecast-day">Sun</div>
-                <img src={props.icon} />
+                <img src={props.icon} alt="forecast weather"/>
                 <div className="WeatherForecast-temperates">
                     <span className="WeatherForecast-temperate-max">19°</span>
                     <span className="WeatherForecast-temperate-min">15°</span>
