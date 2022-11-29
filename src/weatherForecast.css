@@ -1,0 +1,26 @@
+.WeatherForecast {
+    margin-top: 20px;
+}
+
+.WeatherForecast .weekday {
+  background: rgb(255, 235, 205);
+  text-align: center;
+  border-radius: 10px;
+}
+
+.WeatherForecast .weekday img {
+  max-width: 50px;
+  display: block;
+  margin: 0 auto;
+}
+
+.WeatherForecast-temperate-min {
+    opacity: 0.6;
+    margin-left: 5px;
+}
+
+.WeatherForecast-day {
+    font-size: 16px;
+    color: #07a09d;
+    font-weight: bold;
+}

@@ -2,6 +2,7 @@
 import React, { useState } from "react";
 import "./form.css";
 import WeatherInfo from "./WeatherInfo";
+import WeatherForecast from "./WeatherForecast";
 import "./weather.css";
 import axios from "axios";
 
@@ -69,6 +70,7 @@ return (
       
     </div>
     <WeatherInfo data={weatherData} />
+    <WeatherForecast icon={weatherData.icon}/>
   </div>)
   
 } else {
