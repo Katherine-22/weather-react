@@ -8,7 +8,7 @@ export default function App() {
     <div className="App">
       <div className="container">
       
-        <Weather defaultCity="Tokyo"/>
+        <Weather defaultCity="London"/>
 
         <p className="forecastHeading" id="forecast">
           Daily forecast
