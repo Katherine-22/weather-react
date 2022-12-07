@@ -1,11 +1,15 @@
 .WeatherForecast {
     margin-top: 20px;
+    
 }
 
 .WeatherForecast .weekday {
   background: rgb(255, 235, 205);
   text-align: center;
   border-radius: 10px;
+  margin-top: 5px;
+ 
+  
 }
 
 .WeatherForecast .weekday img {
@@ -23,4 +27,10 @@
     font-size: 16px;
     color: #07a09d;
     font-weight: bold;
+}
+
+.forecastHeading {
+  font-size: 22px;
+  color: white;
+  margin-bottom: 10px;
 }

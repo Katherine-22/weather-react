@@ -28,7 +28,7 @@
 }
 
 .Weather .main-description {
-  font-size: 28px;
+  font-size: 24px;
   color: #625b60;
 }
 
@@ -64,3 +64,31 @@
 .Weather .indicators .numbers {
   color: #625b60;
 } 
+
+.Form .search-bar {
+  width: 100%;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  
+}
+
+.Form .btn-search {
+  background: #08d9d6;
+  border: none;
+  color: #fff;
+  font-weight: 700;
+  padding: 10px 0;
+  width: 100%;
+  transition: all 200ms ease-in-out;
+}
+
+.Form .btn-search:hover {
+color: black;
+background-color: rgb(226, 230, 39);
+}
+
+.Form .search-bar:focus {
+  outline: 4px solid rgb(8, 217, 214, 0.4);
+  
+}

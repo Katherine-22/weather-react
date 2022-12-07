@@ -16,12 +16,25 @@ function handleResponse(response) {
 
 if (loaded) {
 return (
-    <div className="WeatherForecast row">
-        <div className="col-4 col-md-2 px-1">
-            <div className="col weekday">
-                <WeatherForecastDay data={forecast[1]}/>
-            </div>
+    <div className="WeatherForecast">
+
+      <p className="forecastHeading">
+          Daily forecast
+        </p>
+
+        <div className="row">
+            {forecast.map(function (dailyForecast, index) {
+                if ((index < 8) && (index > 0)) {
+                    return (
+                    <div className="col-4 col-md-2 weekday border" key={index}>
+                        <WeatherForecastDay data={dailyForecast}/>
+                        
+                    </div>);
+                    } else {return null;}
+                
+            })}
         </div>
+      
     </div>
     );
 

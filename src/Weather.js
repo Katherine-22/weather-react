@@ -1,6 +1,5 @@
 
 import React, { useState } from "react";
-import "./form.css";
 import WeatherInfo from "./WeatherInfo";
 import WeatherForecast from "./WeatherForecast";
 import "./weather.css";
