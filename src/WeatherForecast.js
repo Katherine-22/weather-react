@@ -31,11 +31,12 @@ return (
             {forecast.map(function (dailyForecast, index) {
                 if ((index < 8) && (index > 0)) {
                     return (
-                    <div className="col-4 col-md-2 weekday border" key={index}>
-                        <WeatherForecastDay data={dailyForecast}/>
-                        
+                        <div className="col-4 col-md-2 px-1">
+                            <div className="weekday border" key={index}>
+                                <WeatherForecastDay data={dailyForecast}/>
+                            </div>
                     </div>);
-                    } else {return null;}
+                } else {return null;}
                 
             })}
         </div>

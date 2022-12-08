@@ -80,7 +80,7 @@
   font-weight: 700;
   padding: 10px 0;
   width: 100%;
-  transition: all 200ms ease-in-out;
+  transition: all 150ms ease-in-out;
 }
 
 .Form .btn-search:hover {
