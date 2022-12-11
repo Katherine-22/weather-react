@@ -14,7 +14,7 @@ useEffect( () => {
 )
 
 function handleResponse(response) {
-    console.log(response.data.daily);
+    console.log(response.data);
     setForecast(response.data.daily);
     setLoaded(true);
 }
@@ -31,8 +31,8 @@ return (
             {forecast.map(function (dailyForecast, index) {
                 if ((index < 8) && (index > 0)) {
                     return (
-                        <div className="col-4 col-md-2 px-1">
-                            <div className="weekday border" key={index}>
+                        <div className="col-4 col-md-2 px-1" key={index}>
+                            <div className="weekday border" >
                                 <WeatherForecastDay data={dailyForecast}/>
                             </div>
                     </div>);
